@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+body {
+  font-family: "Montserrat", "Arial";
+  min-width: 1440px;
+}
+
+img {
+  border-radius: 30px;
+}
+
+.header {
+  position: relative;
+  background-image: url(./img/bg-top.png);
+  height: 800px;
+}
+.header__img-bigstar {
+  position: absolute;
+  right: 0;
+}
+.header__img-ministar1 {
+  position: absolute;
+  top: 69px;
+  left: 156px;
+}
+.header__img-ministar2 {
+  position: absolute;
+  top: 538px;
+  right: 455px;
+}
+.header__img-star1 {
+  position: absolute;
+  top: 94px;
+  left: 63px;
+}
+.header__img-star2 {
+  position: absolute;
+  top: 568px;
+  right: 344px;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 769px;
+  padding-top: 196px;
+}
+.header-top__title {
+  font-weight: 700;
+  font-size: 64px;
+}
+.header-top__sub {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+.header-top__but {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 247px;
+  height: 66px;
+  border-radius: 60px;
+  background: #202027;
+  border: 1px solid #202027;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 24px;
+}
+.header-top__but:hover {
+  background: #ffffff;
+  color: #202027;
+  transition: 0.5s;
+}
+
+.description {
+  background-image: url(./img/bg-description.jpg);
+  height: 1470px;
+}
+.description__img-bigstar {
+  position: absolute;
+  padding-top: 112px;
+  right: 0;
+}
+.description__img-star1 {
+  position: absolute;
+  padding-top: 770px;
+  left: 25px;
+}
+.description__img-star2 {
+  position: absolute;
+  padding-top: 823px;
+  left: 42px;
+}
+.description__text {
+  width: 1201px;
+  padding-top: 100px;
+}
+.description__title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  color: #ffffff;
+  width: 314px;
+}
+.description__subtitle {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  width: 788px;
+  padding-top: 32px;
+}
+
+.description-game {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  margin-top: 72px;
+}
+.description-game__one {
+  text-decoration: none;
+  color: #202027;
+  grid-column: span 4;
+  height: 473px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.description-game__one:hover {
+  transform: scale(1.08);
+}
+.description-game__two {
+  text-decoration: none;
+  color: #202027;
+  grid-column: span 4;
+  height: 512px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.description-game__two:hover {
+  transform: scale(1.08);
+}
+.description-game__three {
+  text-decoration: none;
+  color: #202027;
+  grid-column: span 4;
+  height: 473px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.description-game__three:hover {
+  transform: scale(1.08);
+}
+.description-game__four {
+  text-decoration: none;
+  color: #202027;
+  grid-column: span 4;
+  height: 551px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  margin-top: -38px;
+}
+.description-game__four:hover {
+  transform: scale(1.08);
+}
+.description-game__five {
+  text-decoration: none;
+  color: #202027;
+  grid-column: span 4;
+  height: 512px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.description-game__five:hover {
+  transform: scale(1.08);
+}
+.description-game__six {
+  text-decoration: none;
+  color: #202027;
+  grid-column: span 4;
+  height: 551px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  margin-top: -38px;
+}
+.description-game__six:hover {
+  transform: scale(1.08);
+}
+.description-game__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.description-game__text-number {
+  display: block;
+  background-color: #F7F7F7;
+  width: 108px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 52px;
+  padding: 8px 16px 10px 16px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.description-game__text-title {
+  margin-left: 32px;
+  font-weight: 700;
+  font-size: 32px;
+}/*# sourceMappingURL=style.css.map */
